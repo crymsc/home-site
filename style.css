@@ -17,10 +17,19 @@ body {
     background-color: #222;
 }
 
-.placeholder {
-    padding-top: 72px;
-    margin-left: auto;
-    margin-right: auto;
+.pagetitle {
+    font-size: 32px;
+    text-decoration: underline;
+    margin-left: 15%;
+    text-align: left;
+    padding-top: 128px;
+}
+
+.main {
+    padding-top: 16px;
+    padding-bottom: 64px;
+    margin-left: 15%;
+    text-align: left;
 }
 
 .footer {

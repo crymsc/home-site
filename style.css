@@ -1,1 +1,37 @@
-body{background-color: black; color:crimson;}
+body {
+    background-color: black;
+    color: crimson;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.topnavbar {
+    height: 48px;
+    width: 100%px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #222;
+}
+
+.placeholder {
+    padding-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    height: 16px;
+    width: 100%px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #222;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+}

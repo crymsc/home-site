@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: crimson;
-    font-family: Verdana, sans-serif;
+    font-family: 'Lucida Console', monospace;
     font-weight: bold;
     text-align: center;
     font-size: 24px;
@@ -10,6 +10,7 @@ body {
 .topnavbar {
     height: 48px;
     width: 100%px;
+    padding-top: 8px;
     position: fixed;
     right: 0;
     left: 0;

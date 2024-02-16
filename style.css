@@ -33,10 +33,22 @@ body {
     text-align: left;
 }
 
+/* .footer-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 64px;
+    bottom: 0;
+}
+
+/* .badges {
+
+} */ */
+
 .footer {
     height: 16px;
     width: 100%px;
-    position: fixed;
+    position: bottom;
     bottom: 0;
     left: 0;
     right: 0;
@@ -44,4 +56,14 @@ body {
     font-size: 16px;
     padding-top: 8px;
     padding-bottom: 16px;
+}
+
+.footer-mainpage {
+    display: flex;
+    position: absolute;
+    height: 64px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    bottom: 0;
+    justify-content: center;
 }

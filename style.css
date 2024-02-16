@@ -65,5 +65,5 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     bottom: 0;
-    align-content: center;
+    align-items: center;
 }

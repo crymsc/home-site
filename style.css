@@ -1,17 +1,26 @@
 body {
     background-color: black;
-    color: crimson;
+    color: white;
     font-family: 'Lucida Console', monospace;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
     font-size: 24px;
+    text-shadow: -1px -1px 0 #555, 1px -1px 0 #555, -1px 1px 0 #555, 1px 1px 0 #555;
 }
 
 .topnavbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-basis: 225;
+    flex-shrink: 2;
+    overflow-x: scroll;
+    overflow-y:auto;
     height: 48px;
     width: 100%px;
     padding-top: 8px;
-    position: fixed;
     right: 0;
     left: 0;
     top: 0;
@@ -22,6 +31,7 @@ body {
     font-size: 32px;
     text-decoration: underline;
     margin-left: 15%;
+    margin-right: 15%;
     text-align: left;
     padding-top: 128px;
 }
@@ -30,6 +40,7 @@ body {
     padding-top: 16px;
     padding-bottom: 64px;
     margin-left: 15%;
+    margin-right: 15%;
     text-align: left;
 }
 
@@ -60,10 +71,12 @@ body {
 
 .footer-mainpage {
     display: flex;
-    position: absolute;
+    bottom: 0;
+    position: relative;
+    justify-content: center;
+    align-content: baseline;
     height: 64px;
     flex-direction: row;
     flex-wrap: wrap;
-    bottom: 0;
-    align-items: center;
+    padding-top: 15%;
 }

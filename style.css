@@ -10,7 +10,7 @@ body {
 
 .topnavbar {
     display: flex;
-    position: fixed;
+    position: absolute;
     justify-content: space-evenly;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -69,14 +69,19 @@ body {
     padding-bottom: 16px;
 }
 
-.footer-mainpage {
+.footer-badges {
+    background-color: #222;
     display: flex;
     bottom: 0;
-    position: relative;
+    left: 0;
+    right: 0;
+    position: fixed;
     justify-content: center;
     align-content: baseline;
-    height: 64px;
+    overflow: scroll;
+    height: 31px;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 15%;
+    margin-top: 15%;
+    padding: 5px;
 }
